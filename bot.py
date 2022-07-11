@@ -1,9 +1,10 @@
+# Попытка написать бота напоминалку в тлг. вместо БД - словарь......)
 import datetime
 import time
 
 from aiogram import Bot, Dispatcher, executor, types
 
-TOKEN = '5350255486:AAE_8tqRyToR3VwiJYM4ctivrr_I0IlZgxM'
+TOKEN = 'TOKEN'
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
